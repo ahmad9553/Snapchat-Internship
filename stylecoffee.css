@@ -1,0 +1,61 @@
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	background-color: #bcaaa4;
+	color: white;
+	padding: 20px;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+	display: block; /* to remove any extra space around the image */
+	margin: 0 auto; /* to center the image horizontally */
+	max-height: 50vh
+  }
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+nav a {
+	color: white;
+	text-decoration: none;
+	font-size: 18px;
+}
+
+#hero {
+	background-image: url("cafe-image.jpg");
+	background-size: cover;
+	background-position: center;
+	color: #bcaaa4; /* Set text color to #bcaaa4 */
+	padding: 100px;
+	text-align: center;
+  }
+  
+#hero h2 {
+	font-size: 48px;
+	margin-top: 0;
+	text-shadow: 1px 1px 2px black;
+  }
+  
+#hero p {
+	text-shadow: 1px 1px 2px black;
+  }
+
+.button {
+	background-color: white;
+	border: none;
+	color: #bcaaa4;
+	display:
